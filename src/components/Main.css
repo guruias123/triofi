@@ -1,0 +1,58 @@
+body {
+    font-family: 'Muli', sans-serif;
+    /* background:linear-gradient(rgba(250,0,0,0.5),transparent);
+    background-color:orange; */
+    background:linear-gradient(rgba(206, 135, 5, 0.973),transparent);
+    background-color:green;
+}
+
+.navbar{
+    box-sizing: border-box;
+    background-color: orange;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo{
+    flex:1 1 200px;
+}
+
+.sub-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.sub-logo p{
+    margin-right: 10px;
+}
+
+.sidebar{
+    height: 92vh;
+    background-color: green;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.sidebar button{
+    padding: 10px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+.sidebar button:hover{
+    background-color: orange;
+}
